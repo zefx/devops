@@ -56,7 +56,7 @@ tar $OPT $OUTFILE $FOLDERPATH 2>> error.log | openssl aes-256-cbc -a -salt -pbkd
 if [ $? -eq 0 ]; then
     echo "File ${OUTFILE}.enc created"
 else
-    echo "Uncryption unsuccessfull, check error.log."
+    echo "Encryption unsuccessfull, check error.log."
 fi
 # removing compressed folder after encryption + errors to log
 rm $OUTFILE 2>> error.log
