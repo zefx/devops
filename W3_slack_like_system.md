@@ -11,6 +11,7 @@ Each service is responsible for a specific business capability and can be develo
 - Notification Service: sending notifications to users. It provides APIs for subscribing to notifications, managing notification preferences.
 - Search Service: providing search functionality within the system. It provides APIs for searching messages, channels, and users.
 - Storage Service: managing file storage within the system. It provides APIs for uploading, downloading, and deleting files.
+
 Each of these services can be developed using different technologies and can be deployed on different infrastructure.
 They communicate with each other through APIs, allowing for flexibility and scalability.
 The use of a microservices-based architecture also allows for easy integration with other systems and services.
