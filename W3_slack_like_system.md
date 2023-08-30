@@ -1,4 +1,4 @@
-###Proposed architecture for a slack-like system.
+### Proposed architecture for a slack-like system.
 
 #### Top-level description of the proposed architecture:
 The proposed architecture for a slack-like system is a microservices-based architecture. This architecture is composed of several independent and loosely coupled services that communicate with each other through APIs. 
